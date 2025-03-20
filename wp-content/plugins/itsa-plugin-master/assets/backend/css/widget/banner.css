@@ -1,0 +1,27 @@
+/*
+ * Widget Banner 
+ */
+.hongdang-widget-banner .hongdang-banner-wrap {
+    margin-top: 14px;
+}
+.hongdang-widget-banner .hongdang-banner-image {
+	border: 1px dashed #b4b9be;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 20px;
+    padding: 9px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background: #f1f1f1;
+}
+.hongdang-widget-banner .hongdang-banner-image img{
+    max-width: 400px;
+}
+.hongdang-widget-banner .hongdang-banner-buttons {
+	width: auto;
+    height: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    white-space: normal;
+}

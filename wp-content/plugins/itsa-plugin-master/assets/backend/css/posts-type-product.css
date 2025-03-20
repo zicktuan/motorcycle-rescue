@@ -1,0 +1,75 @@
+/* Add image */
+.awe_add_image {
+    cursor: pointer;
+}
+
+.hongdang_images,
+#hongdang_images_container ul::after {
+    clear: both;
+}
+.hongdang_images,
+#hongdang_images_container ul::before {
+    content: " ";
+    display: table;
+}
+
+#hongdang_images_container .hongdang_images {
+    margin-right: -10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#hongdang_images_container .image {
+    box-sizing: border-box;
+    float: left;
+    height: 55px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    position: relative;
+    width: 78px;
+}
+#hongdang_images_container .image > img {
+    width: 100%;
+    height: auto;
+}
+#hongdang_images_container .image:hover .actions {
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+}
+#hongdang_images_container .actions {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+#hongdang_images_container .actions > li {
+    text-align: center;
+    margin: 0;
+}
+#hongdang_images_container .actions > li > a {
+    text-indent: -9999px;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    
+    color: #fff;
+    background: rgba(0, 0, 0, 0.75);
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+#hongdang_images_container .actions > li > a:before {
+    content: "✕";
+    display: inline-block;
+    font-weight: bold;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    text-align: center;
+    text-indent: initial;
+    top: 0;
+    width: 100%;
+}
+#hongdang_images_container .add_product_images {
+    margin: 0;
+}
+/* End */

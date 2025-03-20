@@ -1,0 +1,68 @@
+/*
+ * Widget Support 
+ */
+.hd_support_wrap{
+    padding: 10px 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.hd_support_wrap .hd_support_department_add{
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    display: inline-block;
+    cursor: pointer;
+}
+.hd_support_wrap .hd_support_department_wrap{
+    margin-bottom: 10px;
+    background-color: #fafafa;
+}
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item{
+    border: 1px solid #d2c7c7;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_department_item_del{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    cursor: pointer;
+}
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_department_item_del:hover{
+    background-color: #dcdcdc;
+}
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_hotline_add{
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f5f4f4;
+    display: inline-block;
+    cursor: pointer;
+}
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_hotline_wrap{
+    padding: 10px 2px;
+}
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_hotline_wrap .hd_support_hotline_item{
+    border: 1px solid #ccc;
+    padding: 5px;
+    position: relative;
+}
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_hotline_wrap .hd_support_hotline_item .hd_support_icon_add{
+    color: #00a0d2;
+    cursor: pointer;
+}
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_hotline_wrap .hd_support_hotline_item .hd_support_icon_img img{
+    width: 40px;
+    height: 40px;
+}
+
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_hotline_wrap .hd_support_hotline_item .hd_support_hotline_item_del{
+    position: absolute;
+    right: 2%;
+    top: 7%;
+    cursor: pointer;
+}
+
+.hd_support_wrap .hd_support_department_wrap .hd_support_department_item .hd_support_hotline_wrap .hd_support_hotline_item .hd_support_hotline_item_del:hover{
+    background-color: #dcdcdc;
+}
