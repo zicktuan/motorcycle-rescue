@@ -173,7 +173,7 @@ Khi bân gặp sự cố với xe máy chỉ cần gọi 1900969612 chúng tôi 
 
             <div id="logo-second" style="width:160px;">
                 <a href="<?php echo home_url()?>" rel="home">
-                    <img class="logo-img" src="<?php echo get_template_directory_uri() . '/assets/images/logo.png'?>" alt="ZuttoRide" data-rjs="2" data-rjs-processed="true">
+                    <img class="logo-img" src="<?php echo $logo?>" alt="ZuttoRide" data-rjs="2" data-rjs-processed="true">
                 </a>
             </div>
 
