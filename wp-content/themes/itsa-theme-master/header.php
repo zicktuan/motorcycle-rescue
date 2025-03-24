@@ -9,7 +9,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="title" content="CỨU HỘ XE MÁY - XE MOTO PKL 24/24 - TOÀN QUỐC | ZuttoRide Vietnam">
 <title><?php bloginfo('title')?></title>
 
 <meta name="msapplication-TileColor" content="#ffffff">
