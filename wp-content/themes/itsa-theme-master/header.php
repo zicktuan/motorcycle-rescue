@@ -11,10 +11,6 @@
 
 <meta name="title" content="CỨU HỘ XE MÁY - XE MOTO PKL 24/24 - TOÀN QUỐC | ZuttoRide Vietnam">
 <title><?php bloginfo('title')?></title>
-<meta name="description" content="ZuttoRide Cung cấp dịch vụ Cứu hộ xe máy - Xe Moto PKL 24/24 toàn quốc theo tiêu chuẩn Nhật Bản.
-Khi bân gặp sự cố với xe máy chỉ cần gọi 1900969612 chúng tôi sẽ đến giúp bạn.">
-<meta name="keywords" content="ZuttoRide Việt Nam, ZuttoRide, Cuu ho xe may, va xe, sua xe, cuu ho xe pkl, cuu ho xe moto, van chuyen xe may, cuu ho doc duong, van chuyen xe tai, cung cpa xang, mat chia khoa, dich vu nhat ban, sua khoa tan noi, cuu ho tai cho, sua chong trom">
-<meta name="ROBOTS" content="index, follow">
 
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/layout/frontend/images/logo/ms-icon-144x144.png">
