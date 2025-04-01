@@ -217,7 +217,15 @@
 
 
         </div>
-    </header><!-- #masthead -->
+    </header>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-391239257"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-391239257');
+    </script>
 </div>
                 <div id="primary" class="content-area">
     <main id="main" class="site-main">
