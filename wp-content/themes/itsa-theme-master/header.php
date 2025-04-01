@@ -5,7 +5,8 @@
 ?>
 <!DOCTYPE html>
 <!-- saved from url=(0021)https://zuttoride.vn/ -->
-<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" class=" js_active  vc_desktop  vc_transform  vc_transform "><head id="head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" class=" js_active  vc_desktop  vc_transform  vc_transform ">
+    <head id="head"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -113,6 +114,26 @@
 .call-button {
     animation: pulse 1.5s infinite;
 }
+@keyframes zalo-blink {
+    0% { box-shadow: 0 0 10px rgba(0, 143, 229, 0.8); }
+    50% { box-shadow: 0 0 20px rgba(0, 143, 229, 1); }
+    100% { box-shadow: 0 0 10px rgba(0, 143, 229, 0.8); }
+}
+.zalo-button {
+    position: fixed;
+    bottom: 10px;
+    right: 13px;
+    background: #008fe5;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: zalo-blink 1.5s infinite ease-in-out;
+}
+.zalo-button img {
+    width: 50px;
+    height: 50px;
+}
+
 </style>
 
 <body class="page-template-default page page-id-5779 woocommerce-no-js ztl-sticky-nav wpb-js-composer js-comp-ver-5.6 vc_responsive">
@@ -168,7 +189,7 @@
 
             <div id="logo-second" style="width:160px;">
                 <a href="<?php echo home_url()?>" rel="home">
-                    <img class="logo-img" src="<?php echo $logo?>" alt="ZuttoRide" data-rjs="2" data-rjs-processed="true">
+                    <img class="logo-img" src="<?php echo $logo?>" alt="" data-rjs="2" data-rjs-processed="true">
                 </a>
             </div>
 

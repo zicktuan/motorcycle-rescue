@@ -80,10 +80,12 @@ global $myplugin;
             </div>
         </div>
     </div>
+    <a href="https://zalo.me/<?php echo $optionTheme['awe_hotline']?>" class="zalo-button" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" width="50" alt="Chat Zalo">
+    </a>
     <a href="tel:<?php echo $optionTheme['awe_hotline']?>" class="call-button">
         <i class="fa-solid fa-phone"></i>
     </a>
-
     <div class="site-info">
         <div class="container">
             <div class="row">
